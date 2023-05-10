@@ -1,0 +1,15 @@
+/Users/aritrobasu/Projects/CSharpFundamentals/BethanysPieShopHRM/BethanysPieShopHRM/bin/Debug/net7.0/BethanysPieShopHRM
+/Users/aritrobasu/Projects/CSharpFundamentals/BethanysPieShopHRM/BethanysPieShopHRM/bin/Debug/net7.0/BethanysPieShopHRM.deps.json
+/Users/aritrobasu/Projects/CSharpFundamentals/BethanysPieShopHRM/BethanysPieShopHRM/bin/Debug/net7.0/BethanysPieShopHRM.runtimeconfig.json
+/Users/aritrobasu/Projects/CSharpFundamentals/BethanysPieShopHRM/BethanysPieShopHRM/bin/Debug/net7.0/BethanysPieShopHRM.dll
+/Users/aritrobasu/Projects/CSharpFundamentals/BethanysPieShopHRM/BethanysPieShopHRM/bin/Debug/net7.0/BethanysPieShopHRM.pdb
+/Users/aritrobasu/Projects/CSharpFundamentals/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net7.0/BethanysPieShopHRM.csproj.AssemblyReference.cache
+/Users/aritrobasu/Projects/CSharpFundamentals/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net7.0/BethanysPieShopHRM.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aritrobasu/Projects/CSharpFundamentals/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net7.0/BethanysPieShopHRM.AssemblyInfoInputs.cache
+/Users/aritrobasu/Projects/CSharpFundamentals/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net7.0/BethanysPieShopHRM.AssemblyInfo.cs
+/Users/aritrobasu/Projects/CSharpFundamentals/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net7.0/BethanysPieShopHRM.csproj.CoreCompileInputs.cache
+/Users/aritrobasu/Projects/CSharpFundamentals/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net7.0/BethanysPieShopHRM.dll
+/Users/aritrobasu/Projects/CSharpFundamentals/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net7.0/refint/BethanysPieShopHRM.dll
+/Users/aritrobasu/Projects/CSharpFundamentals/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net7.0/BethanysPieShopHRM.pdb
+/Users/aritrobasu/Projects/CSharpFundamentals/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net7.0/BethanysPieShopHRM.genruntimeconfig.cache
+/Users/aritrobasu/Projects/CSharpFundamentals/BethanysPieShopHRM/BethanysPieShopHRM/obj/Debug/net7.0/ref/BethanysPieShopHRM.dll
