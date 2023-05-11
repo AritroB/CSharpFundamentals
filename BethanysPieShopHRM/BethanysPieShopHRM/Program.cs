@@ -2,11 +2,12 @@
 
 Console.WriteLine("Please enter your name: ");
 
-string name = Console.ReadLine();
+//string name = Console.ReadLine();
 
+/*
 string name2 = Console.ReadLine();
 string name_2 = Console.ReadLine();
-
+*/
 //string 2Name = Console.Readline();
 
 int monthlyWage = 1234;
@@ -32,5 +33,25 @@ string lastName = "Smith";
 
 string emptyString = "";
 
-Console.WriteLine("Please enter your name");
-string name = Console.ReadLine();
+double ratePerHour = 12.34;
+int numberOfHoursWorked = 165;
+
+double currentMonthWage = ratePerHour * numberOfHoursWorked;
+Console.WriteLine(currentMonthWage);
+
+var numEmployees = 15;
+numEmployees--;
+
+int intMaxValue = int.MaxValue;
+int intMinValue = int.MinValue;
+
+char userSelection = 'a';
+char upperVersion = char.ToUpper(userSelection);
+
+DateTime hireDate = new DateTime(2023, 5, 11, 14, 30, 0);
+Console.WriteLine(hireDate);
+
+DateTime startDate = hireDate.AddDays(25);
+Console.WriteLine("Start date: " + startDate);
+
+var isActive = true;

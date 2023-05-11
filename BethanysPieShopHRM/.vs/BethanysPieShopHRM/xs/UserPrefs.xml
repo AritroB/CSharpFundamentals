@@ -1,4 +1,26 @@
 ﻿<Properties StartupConfiguration="{3D44FC43-C08A-4FB9-85DF-1BCFE8EDA155}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.BethanysPieShopHRM FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BethanysPieShopHRM/Program.cs">
+    <Files>
+      <File FileName="BethanysPieShopHRM/Program.cs" Line="36" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BethanysPieShopHRM" expanded="True">
+            <Node name="BethanysPieShopHRM" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BethanysPieShopHRM PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
