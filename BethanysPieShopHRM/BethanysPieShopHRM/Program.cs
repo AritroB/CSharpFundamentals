@@ -1,57 +1,153 @@
-﻿Console.WriteLine("Welcome to Bethany's Pie Shop HRM!");
+﻿int age = 23;
 
-Console.WriteLine("Please enter your name: ");
+bool a = age == 23;
+Console.WriteLine("Age is 23: " + a);
 
-//string name = Console.ReadLine();
+bool b = age > 23;
+Console.WriteLine("Age is greater than 23: " + b);
 
-/*
-string name2 = Console.ReadLine();
-string name_2 = Console.ReadLine();
-*/
-//string 2Name = Console.Readline();
+bool c = (age >= 18) && (age <= 65);
+Console.WriteLine("Age is between 18 and 65: " + c);
 
-int monthlyWage = 1234;
 
-int months = 12, bonus = 1000;
+int age1 = 16;
+int age2 = 64;
+bool d = (age1 >= 18) && (age2 <= 65);
+Console.WriteLine("Age1 is greater than 18 AND age2 is less than 65: " + d);
+bool e = (age1 >= 18) || (age2 <= 65);
+Console.WriteLine("Age1 is greater than 18 OR age2 is less than 65: " + e);
 
-bool isActive = true;
+if (age < 18)
+{ 
+    Console.WriteLine("Too young to apply");
+}
+else 
+    Console.WriteLine("Great, you can now start with the application!");
 
-double rating = 99.25;
 
-// byte numberOfEmployees = 300; does not work bc 300 is out of range of byte
+if (age < 18)
+{
+    Console.WriteLine("Too young to apply.");
+    Console.WriteLine("Send email to candidate.");
+}
+else
+    Console.WriteLine("Great, you can now start with your application!");
 
-int hoursWorked;
+switch (age)
+{
+    case < 18:
+        Console.WriteLine("Too young to apply");
+        break;
+    case > 65:
+        Console.WriteLine("Sorry, the selected age is too old");
+        break;
+    case 23:
+        Console.WriteLine("Wow, exactly what we are looking for");
+        break;
+    default:
+        Console.WriteLine("Great, you can continue!");
+        break;
+}
 
-hoursWorked = 125;
+Console.WriteLine("Enter a value: ");
+int max = int.Parse(Console.ReadLine());
+int i = 0;
 
-const double interestRate = 0.07;
+while (i < max)
+{
+    Console.WriteLine(i);
+    i++;
+}
 
-//interestRate = 0.08; doesn't work becaue of const
 
-string firstName = "Bethany";
-string lastName = "Smith";
+Console.WriteLine("Choose the action you want to do: ");
+Console.WriteLine("1. Add employee");
+Console.WriteLine("2. Update employee");
+Console.WriteLine("3. Delete employee");
+Console.WriteLine("99. Exit application");
+string selectedAction = Console.ReadLine();
 
-string emptyString = "";
+while (selectedAction != "99")
+{
+    switch (selectedAction)
+    {
+        case "1":
+            Console.WriteLine("Adding new employee...");
+            break;
+        case "2":
+            Console.WriteLine("Updating employee...");
+            break;
+        case "3":
+            Console.WriteLine("Deleting employee...");
+            break;
+        default:
+            Console.WriteLine("Invalid input");
+            break;
+    }
+    Console.WriteLine("Choose the action you want to do: ");
+    Console.WriteLine("1. Add employee");
+    Console.WriteLine("2. Update employee");
+    Console.WriteLine("3. Delete employee");
+    Console.WriteLine("99. Exit application");
+    selectedAction = Console.ReadLine();
+}
 
-double ratePerHour = 12.34;
-int numberOfHoursWorked = 165;
+Console.WriteLine("Closing application");
 
-double currentMonthWage = ratePerHour * numberOfHoursWorked;
-Console.WriteLine(currentMonthWage);
+string selectedAction = "";
 
-var numEmployees = 15;
-numEmployees--;
+do
+{
+    Console.WriteLine("Choose the action you want to do: ");
+    Console.WriteLine("1. Add employee");
+    Console.WriteLine("2. Update employee");
+    Console.WriteLine("3. Delete employee");
+    Console.WriteLine("99. Exit application");
+    selectedAction = Console.ReadLine();
 
-int intMaxValue = int.MaxValue;
-int intMinValue = int.MinValue;
+    switch (selectedAction)
+    {
+        case "1":
+            Console.WriteLine("Adding new employee...");
+            break;
+        case "2":
+            Console.WriteLine("Updating employee...");
+            break;
+        case "3":
+            Console.WriteLine("Deleting employee...");
+            break;
+        default:
+            Console.WriteLine("Invalid input");
+            break;
+    }
 
-char userSelection = 'a';
-char upperVersion = char.ToUpper(userSelection);
+} while (selectedAction != "99");
 
-DateTime hireDate = new DateTime(2023, 5, 11, 14, 30, 0);
-Console.WriteLine(hireDate);
+Console.WriteLine("Closing application");
 
-DateTime startDate = hireDate.AddDays(25);
-Console.WriteLine("Start date: " + startDate);
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine(i);
+}
 
-var isActive = true;
+
+for (int i = 0, j = 10; i < 10 && j > 0; i++, j--)
+{
+    Console.WriteLine("i: " + i + "   j: " + j);
+}
+
+Console.WriteLine("Enter a value: ");
+int max = int.Parse(Console.ReadLine());
+
+
+for (int i = 0; i < max; i++)
+{
+    if (i == 15)
+    {
+        Console.WriteLine("Bingo! " + i + " was found!");
+        continue;
+        //break;
+    }
+    Console.WriteLine(i);
+}
+
